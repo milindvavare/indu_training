@@ -30,7 +30,7 @@ body{
 	}
 	.mid-div h2{
 		font-size: 28px;
-		color: #2b5ec0;
+		color: red;
 	}
 	.mid-div-sub{
 		display: inline-flex;
