@@ -1,0 +1,83 @@
+body{
+		background:url('../img/1.jpg');
+		background-size: cover;
+	}
+	.main-div{
+		width: 30%;
+		height: 550px;
+		background: rgba(0, 0, 0, 0.4);
+		margin-top: 50px;
+	}
+	.top-div{
+		width: 100%;
+		height: 20px;
+	}
+	.close_btn{
+		background: transparent;
+		border:none;
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 10px;
+		float: right;
+		margin-right: 10px;
+		color: #68e1b1;
+
+	}
+	.mid-div{
+		width: 100%;
+		height: 80px;
+	
+	}
+	.mid-div h2{
+		font-size: 28px;
+		color: #2b5ec0;
+	}
+	.mid-div-sub{
+		display: inline-flex;
+		gap: 30px;
+		margin-left: 30px;
+	}
+
+	.mid-div .mid-div-sub div{
+		width: 10px;
+		height: 10px;
+		background: #68e1b1;
+		border-radius: 50%;
+		margin-top: 35px;
+
+	}
+	.input-text{
+		width: 80%;
+		height: 40px;
+		font-size: 20px;
+		border:none;
+		border-bottom: 2px solid #68e1b1;
+		margin-bottom: 10px;
+		background: transparent;
+		color: white;
+	}
+	.input-text:focus{
+		outline: none;		
+	}
+	
+	.terms_and_cond{
+		display: inline-flex;
+		float: left;
+		margin-left: 40px;
+	}
+	.signup_btn{
+		width: 60%;
+		height: 50px;
+		font-size: 20px;
+		border:none;
+		background: #68e1b1;
+		color: white;
+		border-radius: 30px;
+		margin-top: 20px;
+	}
+	.signup_btn:hover{
+		background: #3d8ad9;
+	}
+	.signup_btn:focus{
+		background: red;
+	}

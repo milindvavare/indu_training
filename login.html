@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+   
+	<center>
+
+   <div style="height: 350px;" class="main-div">
+   	<div class="top-div">
+   		<button class="close_btn">X</button>
+   	</div>
+
+   
+   	<div class="mid-div">
+   		<div class="mid-div-sub">
+   		  <div></div>
+   			<h2>Registration Form</h2>
+   			<div></div>
+   		</div>
+   	</div>
+
+   <input class="input-text" id="user_name" type="text" name="" placeholder="Username">
+
+   <input class="input-text" id="pass" type="password" name="" placeholder="Password">
+  
+   <br>
+   <br> <button class="signup_btn" onclick="login()">Login</button>
+   </div>
+ </center>
+</body>
+</html>
+<script>
+	function login(){
+    var username = "Test";
+    var password = "password";
+
+    var user_name = document.getElementById("user_name").value;
+    var pass = document.getElementById("pass").value;
+
+
+    if(username == user_name){
+        
+        if(password == pass){
+             location.href="home.html";
+        }
+        else{
+          alert("Wrong Password!");
+        }
+
+    }
+    else{
+      alert("User Not Exist!");
+    }
+
+
+  }
+</script>
